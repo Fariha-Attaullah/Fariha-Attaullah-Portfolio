@@ -1,25 +1,42 @@
-import logo from './logo.svg';
 import './App.css';
+import React, { useState, useEffect } from 'react';
+import Home from './Components/Home';
+import About from './Components/About';
+import Services from './Components/Services';
+import Works from './Components/Works';
+import Blog from './Components/Blog';
+import Contact from './Components/Contact';
+import Navbar from './Navbar';
+import LoaderComponent from './Components/LoaderComponent';
 
 function App() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 5200);
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      {loading ? (
+        <LoaderComponent />
+      ) : (
+        <>
+          <Navbar />
+          <Home />
+          <About />
+          <Services />
+          <Works />
+          <Blog />
+          <Contact />
+        </>
+      )}
+    </>
+  )
 }
+
+
 
 export default App;
