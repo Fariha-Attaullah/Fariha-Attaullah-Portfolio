@@ -294,10 +294,10 @@ html {
   }
 
   .project {
-    width: auto;
-    height: auto;
-    background-position: center;
-    background-size: cover;
+    /* width: auto; */
+    /* height: auto; */
+    /* background-position: center; */
+    /* background-size: cover; */
   }
 
   .experience {
@@ -640,7 +640,7 @@ html {
   }
 
   .project {
-    height: auto;
+    height: 200px;
     width: auto;
   }
 

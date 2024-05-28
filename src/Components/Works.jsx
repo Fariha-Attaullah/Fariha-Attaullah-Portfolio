@@ -38,7 +38,7 @@ const Works = () => {
                     <p className='text-center mt-3'>I build the responsive Travel Voyage website by using React.js & Tailwind CSS</p>
                 </div>
                 <div className='w-max px-7 py-4 bg-[#11204D] rounded-xl font-semibold text-white m-auto mt-16'>
-                    <a className='flex items-center gap-1' href="https://github.com/Fariha-Attaullah?tab=repositories" target='_blank'>
+                    <a className='flex items-center gap-1' href="https://github.com/Fariha-Attaullah?tab=repositories" target='_blank' rel="noopener noreferrer">
                         <p>See More</p>
                         <div className="text-2xl"><MdKeyboardArrowRight /></div>
                     </a>

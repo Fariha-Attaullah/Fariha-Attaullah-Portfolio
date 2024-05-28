@@ -47,22 +47,22 @@ const Home = () => {
                     <div className='h-[2px] w-[100px] bg-slate-300 ml-[20px] mt-1 gray-div'></div>
                     <div className="w-max flex gap-3 ml-5 social-main">
                         <div className="h-12 w-12 bg-white flex items-center justify-center rounded-lg border ">
-                            <a href="https://github.com/Fariha-Attaullah" target='_blank'>
+                            <a href="https://github.com/Fariha-Attaullah" target='_blank' rel="noopener noreferrer">
                                 <BsGithub className=' text-black text-xl social' />
                             </a>
                         </div>
                         <div className="h-12 w-12 rounded-lg bg-white flex items-center justify-center border ">
-                            <a href="https://www.linkedin.com/in/fariha-attaullah-113a5a294/" target='_blank'>
+                            <a href="https://www.linkedin.com/in/fariha-attaullah-113a5a294/" target='_blank' rel="noopener noreferrer">
                                 <FaLinkedinIn className=' text-black text-xl social' />
                             </a>
                         </div>
                         <div className="h-12 w-12 rounded-lg border bg-white flex items-center justify-center ">
-                            <a href="https://www.instagram.com/call_me_fariha.__/" target='_blank' >
+                            <a href="https://www.instagram.com/call_me_fariha.__/" target='_blank' rel="noopener noreferrer">
                                 <RiInstagramFill className=' text-black text-xl social' />
                             </a>
                         </div>
                         <div className="h-12 w-12 rounded-lg border bg-white flex items-center justify-center">
-                            <a href="https://twitter.com/farihajutt86" target='_blank' >
+                            <a href="https://twitter.com/farihajutt86" target='_blank'rel="noopener noreferrer" >
                                 <BsTwitterX className=' text-black text-lg social' />
                             </a>
                         </div>

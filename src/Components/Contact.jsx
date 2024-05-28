@@ -84,7 +84,7 @@ const Contact = () => {
                                     </a>
                                 </div>
                                 <div className="h-12 w-12 rounded-lg border bg-white flex items-center justify-center">
-                                    <a href="https://twitter.com/farihajutt86" target='_blank' >
+                                    <a href="https://twitter.com/farihajutt86" target='_blank' rel="noopener noreferrer" >
                                         <BsTwitterX className=' text-black text-lg social' />
                                     </a>
                                 </div>

@@ -61,7 +61,7 @@ const Navbar = () => {
     <>
       <nav className={`h-36 w-full p-20 flex items-center justify-between navbar text-black top-0 left-0 fixed bg-white ${activeSection !== 'Home' ? 'active' : ''}`}>
         <a href="#Home">
-          <img className='h-[200px] w-[200px] bg-cover bg-center cursor-pointer logoImg' src="https://res.cloudinary.com/dratc41d6/image/upload/v1712168546/F_A_R_I_H_A-removebg-preview_zyqpgk.png" alt="Logo" />
+          <img className='h-[200px] w-[200px] bg-cover bg-center cursor-pointer logoImg' src="https://res.cloudinary.com/dratc41d6/image/upload/v1712168546/F_A_R_I_H_A-removebg-preview_zyqpgk.png" alt="Logo" rel="noopener noreferrer" />
         </a>
         <div onClick={toggleSidebar}>
           <div className='sidebar cursor-pointer md:hidden text-3xl'>
