@@ -9,8 +9,8 @@ const Works = () => {
                 <h1 className='text-[#11204D] font-semibold text-[36px] text-center Font'>Frontend Web Developer Portfolio</h1>
                 <p className='text-center mt-2 text-[14px] text-[#11204D59] Font font-medium'>Just some of the projects I worked on</p>
                 <div className='mt-12 overflow-hidden'>
-                    <div className="cursor-pointer rounded-lg h-[400px] w-[70%] m-auto mt-20 project">
-                        <img className='rounded-lg h-full' src="https://res.cloudinary.com/dratc41d6/image/upload/v1715518089/Kfc_clone_kjeanz.png"  alt="Kfc Clone" />
+                    <div className="cursor-pointer rounded-lg h-[400px] w-full mt-20 project">
+                        <img className='rounded-lg h-full m-auto' src="https://res.cloudinary.com/dratc41d6/image/upload/v1716920709/3ac2b39ad528f8c8c5dc77c59abb683d_vn4ew1.jpg"  alt="Kfc Clone" />
                     </div>
                     <h1 className='text-center text-2xl mt-10 underline'>
                         <a href="https://graceful-baklava-c3ff67.netlify.app/" target="_blank" rel="noopener noreferrer">
@@ -18,8 +18,8 @@ const Works = () => {
                         </a>
                     </h1>
                     <p className='text-center mt-3'>I build the responsive KFC Website Clone by using React.js & Tailwind CSS</p>
-                    <div className="cursor-pointer rounded-lg h-[400px] w-[70%] m-auto mt-20 project">
-                        <img className='rounded-lg h-full' src="https://res.cloudinary.com/dratc41d6/image/upload/v1715587683/jewellery_app_axqzqk.png"  alt="Jewellery Site" />
+                    <div className="cursor-pointer rounded-lg h-[400px] w-full mt-20 project">
+                        <img className='rounded-lg h-full m-auto' src="https://res.cloudinary.com/dratc41d6/image/upload/v1716923150/jewellery_t57k3d.png"  alt="Jewellery Site" />
                     </div>
                     <h1 className='text-center text-2xl mt-10 underline'>
                         <a href="https://jewellerysite.netlify.app/" target="_blank" rel="noopener noreferrer">
@@ -27,8 +27,8 @@ const Works = () => {
                         </a>
                     </h1>
                     <p className='text-center mt-3'>I build the responsive Jewellery E-commerce website by using HTML , CSS & Bootstrap.</p>
-                    <div className="cursor-pointer rounded-lg h-[400px] w-[70%] m-auto mt-20 project">
-                        <img className='rounded-lg h-full' src="https://res.cloudinary.com/dratc41d6/image/upload/v1715518992/travel_voyage_vbrsoc.png"  alt="Travel Voyage" />
+                    <div className="cursor-pointer rounded-lg h-[400px] w-full mt-20 project">
+                        <img className='rounded-lg m-auto h-full' src="https://res.cloudinary.com/dratc41d6/image/upload/v1716922587/travel_cimxzw.png"  alt="Travel Voyage" />
                     </div>
                     <h1 className='text-center mt-10'>
                         <a className='text-2xl underline' href="https://travelvoyage.netlify.app/" target="_blank" rel="noopener noreferrer">
