@@ -342,11 +342,11 @@ html {
   }
   .loader{
     /* height: 100vh; */
-    display: block;
+    /* display: block; */
     padding: 10px;
   }
   .loader-main{
-    margin-top: 50%;
+    /* margin-top: 50%; */
     display: flex;
     justify-content: space-between;
     font-size: 10px;

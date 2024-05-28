@@ -51,11 +51,11 @@ const About = () => {
                         </div>
                         <div className='w-[90%] m-auto  flex justify-between border-b-2 mt-5'>
                             <p className='text-[#4E5767] text-[17px]'>Email:</p>
-                            <p className='text-[#6138DB] text-[14px]'>farihajutt86@gmail.com</p>
+                            <p className='text-[#6138DB] text-[14px]'>fareeha5a31@gmail.com</p>
                         </div>
                         <div className='w-[90%] m-auto  flex justify-between border-b-2 mt-5'>
                             <p className='text-[#4E5767] text-[17px]'>Location:</p>
-                            <p className='text-[#6138DB] text-[17px]'>Pakistan</p>
+                            <p className='text-[#6138DB] text-[17px]'>Lahore, Pakistan</p>
                         </div>
                         <button
                             className="w-max mt-16 px-7 py-4 bg-[rgb(97,56,189)] rounded-xl font-semibold flex items-center gap-1 text-white Resume"
@@ -111,7 +111,7 @@ const About = () => {
                     </div>
                 </div>
 
-                <div className='flex justify-between mt-16 w-[85%] m-auto skills'>
+                <div className='flex justify-between mt-16 w-[85%]  skills'>
                     <div>
                         <div className='w-[350px] flex justify-between moves'>
                             <div className='flex gap-2'><FaBootstrap className='text-3xl text-[#6138DB]' />Bootstrap</div>
